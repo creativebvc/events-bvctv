@@ -277,9 +277,9 @@
     //   {
     //     "title": "Open House",
     //     "description": "...",
-    //     "date": "2026-03-22",         // YYYY-MM-DD
-    //     "time": "10:00 AM - 2:00 PM", // optional
-    //     "location": "Main Campus",    // optional
+    //     "date": "2026-03-07",         // YYYY-MM-DD
+    //     "time": "10:00 AM - 4:00 PM", // optional
+    //     "location": "South Campus",    // optional
     //     "category": "campus"          // campus | holiday | academic | local
     //   }
     // ]
@@ -297,9 +297,9 @@
         {
             title: "Open House",
             description: "Join us and explore everything Bow Valley College has to offer. Meet with academic advisors, tour our facilities, and discover programs in business, health, technology, community studies, and entertainment arts.",
-            date: "2026-03-22",
+            date: "2026-03-07",
             time: "10:00 AM - 2:00 PM",
-            location: "Main Campus & Okotoks Campus",
+            location: "South Campus & North Campus",
             category: "campus"
         },
         {
@@ -414,6 +414,7 @@
                     location:    e.location || "",
                     category:    e.category,
                     featured:    e.featured === true,
+                    end_date:    e.end_date || "",
                     _date:       d,
                     _days:       days
                 });
@@ -448,6 +449,21 @@
         renderList(listEvents.slice(0, 4));
     }
 
+    function formatDateDisplay(ev) {
+        var d = ev._date;
+        var start = MONTH_FULL[d.getMonth()] + " " + d.getDate();
+        if (ev.end_date) {
+            var ed = parseLocalDate(ev.end_date);
+            // Same month: "April 3 – 6", different month: "March 26 – April 1"
+            if (ed.getMonth() === d.getMonth()) {
+                return start + " \u2013 " + ed.getDate();
+            } else {
+                return start + " \u2013 " + MONTH_FULL[ed.getMonth()] + " " + ed.getDate();
+            }
+        }
+        return start;
+    }
+
     function renderFeatured(ev) {
         var meta = CATEGORY_META[ev.category] || CATEGORY_META.campus;
         var d = ev._date;
@@ -466,7 +482,7 @@
         html += "<div class='featured-top-row'>";
         html +=   "<div class='event-tag " + meta.tagClass + "'>" + meta.label + "</div>";
         html +=   "<div class='featured-date-group'>";
-        html +=     "<div class='event-date-line'>" + MONTH_FULL[d.getMonth()] + " " + d.getDate() + "</div>";
+        html +=     "<div class='event-date-line'>" + formatDateDisplay(ev) + "</div>";
         html +=     "<div class='event-days-away'>" + daysAwayLabel(ev._days) + "</div>";
         html +=   "</div>";
         html += "</div>";
@@ -502,12 +518,12 @@
             html +=     "<div class='event-left'>";
             html +=       "<div class='event-tag " + meta.tagClass + "'>" + meta.label + "</div>";
             html +=       "<div class='event-title'>" + ev.title + todayBadge + "</div>";
-            if (ev.time) {
-                html +=   "<div class='event-sub'>" + ev.time + "</div>";
+            if (ev.description) {
+                html +=   "<div class='event-sub'>" + ev.description + "</div>";
             }
             html +=     "</div>";
             html +=     "<div class='event-right'>";
-            html +=       "<div class='event-date-line'>" + MONTH_FULL[d.getMonth()] + " " + d.getDate() + "</div>";
+            html +=       "<div class='event-date-line'>" + formatDateDisplay(ev) + "</div>";
             html +=       "<div class='event-days-away'>" + daysAwayLabel(ev._days) + "</div>";
             html +=     "</div>";
             html +=   "</div>";
