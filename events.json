@@ -16,7 +16,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit transcripts for domestic students applying for the Winter 2027 intake of the Practical Nurse Diploma program."
+    "description": "Deadline for PN Diploma Winter 2027 applicants."
   },
   {
     "title": "Student Visa Deadline",
@@ -25,7 +25,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit student visa approval or denial for Spring 2026 international applicants."
+    "description": "Visa approval/denial due for Spring 2026 intl. applicants."
   },
   {
     "title": "Withdrawal Deadline",
@@ -34,25 +34,25 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to withdraw from Winter 2026 courses without academic penalty."
+    "description": "Last day to withdraw from Winter 2026 without penalty."
   },
   {
     "title": "Good Friday",
     "date": "2026-04-03",
-    "end_date": "2026-04-03",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for Good Friday and Easter Monday statutory holidays. No classes or services April 3 to 6."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Easter Monday",
     "date": "2026-04-06",
-    "end_date": "2026-04-06",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for Good Friday and Easter Monday statutory holidays. No classes or services April 3 to 6."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "International Applications Close",
@@ -61,7 +61,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "International applications close for Spring 2026. Some programs may close earlier if waitlists are full."
+    "description": "Intl. applications close for Spring 2026."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -70,7 +70,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit your Application to Graduate for the Spring 2026 convocation."
+    "description": "Submit your Application to Graduate for Spring 2026."
   },
   {
     "title": "End of Winter Term",
@@ -79,7 +79,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "End of the Winter 2026 term. Spring 2026 domestic post-secondary applications close at 4:00 p.m. MT."
+    "description": "Last day of Winter 2026 term."
   },
   {
     "title": "New Student Orientation",
@@ -98,7 +98,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to pay tuition and fees for the Spring 2026 term. Late payments may result in deregistration from courses."
+    "description": "Tuition and fees due for the Spring 2026 term."
   },
   {
     "title": "Start of Spring Term",
@@ -107,7 +107,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "First day of classes for the Spring 2026 term. Welcome back to campus!"
+    "description": "First day of classes for Spring 2026."
   },
   {
     "title": "Application to Graduate Opens",
@@ -116,7 +116,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "The Application to Graduate opens for eligible students. Submit your application before the deadline to be considered for the next convocation."
+    "description": "Application to Graduate opens for eligible students."
   },
   {
     "title": "Course Drop & Transfer Credit Deadline",
@@ -125,7 +125,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to drop courses and submit transfer credit. Also the deadline to opt out of the Calgary Transit UPass for Spring 2026."
+    "description": "Last day to drop courses or submit transfer credit."
   },
   {
     "title": "Intl. Applications Open – Spring 2027",
@@ -134,16 +134,16 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for international students applying to post-secondary programs for the Spring 2027 intake."
+    "description": "Intl. applications open for Spring 2027 intake."
   },
   {
     "title": "College Closed – Victoria Day",
     "date": "2026-05-18",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Victoria Day statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Graduation Conferral",
@@ -152,7 +152,7 @@
     "location": "",
     "category": "campus",
     "featured": false,
-    "description": "Spring 2026 Graduation Conferral Date. Degrees, diplomas, and certificates are officially conferred for eligible graduates."
+    "description": "Spring 2026 Graduation Conferral Date."
   },
   {
     "title": "Academic Upgrading Applications Open",
@@ -161,7 +161,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for Academic Upgrading, English for Academic Purposes, and Regional Open Studies programs."
+    "description": "Applications open for Upgrading and EAP programs."
   },
   {
     "title": "Domestic Applications Open – Spring 2027",
@@ -170,7 +170,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for domestic students applying to post-secondary programs for Spring 2027. Health & Wellness students also begin self-registration."
+    "description": "Domestic applications open for Spring 2027 intake."
   },
   {
     "title": "SABVC Health Plan Opt-Out Deadline",
@@ -179,7 +179,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to opt out of the SABVC Health and Dental plan and My Virtual Doctor (MVD) plan for the Spring 2026 term."
+    "description": "Last day to opt out of SABVC Health & Dental plan."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -188,7 +188,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Final deadline to submit your Application to Graduate for the Spring 2026 convocation ceremonies."
+    "description": "Final deadline to apply to graduate for Spring 2026."
   },
   {
     "title": "Spring Convocation Ceremonies",
@@ -201,22 +201,23 @@
     "description": "Spring 2026 Convocation Ceremonies celebrating the graduating class. Join us to recognize the achievements of our students across all programs."
   },
   {
-    "title": "College Closed – Canada Day",
-    "date": "2026-07-01",
-    "time": "All Day",
-    "location": "All Campuses",
-    "category": "holiday",
-    "featured": false,
-    "description": "College closed for Canada Day. No classes or services."
-  },
-  {
     "title": "Reading Week",
     "date": "2026-06-29",
     "end_date": "2026-07-03",
+    "time": "",
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Reading Week for Spring 2026. Credit classes do not meet, except Practical Nurse classes. Condensed and continuing courses follow their own schedules."
+    "description": "Credit classes do not meet. Some courses continue."
+  },
+  {
+    "title": "College Closed – Canada Day",
+    "date": "2026-07-01",
+    "time": "",
+    "location": "All Campuses",
+    "category": "holiday",
+    "featured": false,
+    "description": "College closed. No classes or services."
   },
   {
     "title": "PN Diploma Applications Close",
@@ -225,7 +226,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications close for domestic students applying for the Spring 2027 intake of the Practical Nurse Diploma program."
+    "description": "PN Diploma applications close for Spring 2027 intake."
   },
   {
     "title": "Open Studies Applications Open",
@@ -234,7 +235,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications for Open Studies open for the Fall 2026 intake."
+    "description": "Open Studies applications open for Fall 2026."
   },
   {
     "title": "Intl. Visa Deadline – Fall 2026",
@@ -243,7 +244,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit student visa approval or denial for Fall 2026 international applicants."
+    "description": "Visa approval/denial due for Fall 2026 intl. applicants."
   },
   {
     "title": "Graduation Conferral",
@@ -252,7 +253,7 @@
     "location": "",
     "category": "campus",
     "featured": false,
-    "description": "July 2026 Graduation Conferral Date. Degrees, diplomas, and certificates are officially conferred for eligible graduates."
+    "description": "July 2026 Graduation Conferral Date."
   },
   {
     "title": "Transfer Credit Deadline – Fall 2026",
@@ -261,16 +262,16 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Transfer Credit and Prior Learning submission deadline for the Fall 2026 term."
+    "description": "Transfer credit submission deadline for Fall 2026."
   },
   {
     "title": "College Closed – Heritage Day",
     "date": "2026-08-03",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Heritage Day statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Withdrawal Deadline",
@@ -279,7 +280,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to withdraw from Spring 2026 courses without academic penalty."
+    "description": "Last day to withdraw from Spring 2026 without penalty."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -288,7 +289,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit your Application to Graduate for the Fall 2026 convocation."
+    "description": "Submit your Application to Graduate for Fall 2026."
   },
   {
     "title": "End of Spring Term",
@@ -306,7 +307,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Fall 2026 domestic post-secondary applications close. Some programs may close earlier if waitlists are full."
+    "description": "Fall 2026 domestic applications close at 4:00 p.m. MT."
   },
   {
     "title": "New Student Orientation",
@@ -324,7 +325,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to pay tuition and fees for the Fall 2026 term. Late payments may result in deregistration from courses."
+    "description": "Tuition and fees due for the Fall 2026 term."
   },
   {
     "title": "Start of Fall Term",
@@ -333,16 +334,16 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "First day of classes for the Fall 2026 term. Welcome back to campus!"
+    "description": "First day of classes for Fall 2026."
   },
   {
     "title": "College Closed – Labour Day",
     "date": "2026-09-07",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Labour Day statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "UPass Opt-Out Deadline",
@@ -351,7 +352,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to request opt-out for the Calgary Transit Universal Bus Pass (UPass) for Fall 2026."
+    "description": "Deadline to opt out of the Calgary Transit UPass."
   },
   {
     "title": "Intl. Applications Open – Fall 2027",
@@ -360,7 +361,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for international students applying to post-secondary programs for the Fall 2027 intake."
+    "description": "Intl. applications open for Fall 2027 intake."
   },
   {
     "title": "Application to Graduate Opens",
@@ -369,7 +370,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "The Application to Graduate opens for eligible Fall 2026 students."
+    "description": "Application to Graduate opens for Fall 2026 students."
   },
   {
     "title": "Graduation Conferral",
@@ -383,11 +384,11 @@
   {
     "title": "National Day for Truth & Reconciliation",
     "date": "2026-09-30",
-    "time": "All Day",
+    "time": "",
     "location": "",
     "category": "holiday",
     "featured": false,
-    "description": "National Day for Truth and Reconciliation. Also the last day to opt out of the SABVC Health and Dental plan and MVD for Fall 2026."
+    "description": "College observes National Day for Truth & Reconciliation."
   },
   {
     "title": "Domestic Applications Open – Fall 2027",
@@ -396,7 +397,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for domestic students applying to post-secondary programs for the Fall 2027 intake."
+    "description": "Domestic applications open for Fall 2027 intake."
   },
   {
     "title": "Open House",
@@ -410,11 +411,11 @@
   {
     "title": "College Closed – Thanksgiving",
     "date": "2026-10-12",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Thanksgiving statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -423,25 +424,26 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit your Application to Graduate for the Fall 2026 convocation."
+    "description": "Submit your Application to Graduate for Fall 2026."
   },
   {
     "title": "Reading Week",
     "date": "2026-11-09",
     "end_date": "2026-11-13",
+    "time": "",
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Reading Week for Fall 2026. Credit classes do not meet, except Practical Nurse classes. Condensed and continuing courses follow their own schedules."
+    "description": "Credit classes do not meet. Some courses continue."
   },
   {
     "title": "College Closed – Remembrance Day",
     "date": "2026-11-11",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Remembrance Day statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Graduation Conferral",
@@ -459,7 +461,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit student visa approval or denial for Winter 2027 international applicants."
+    "description": "Visa approval/denial due for Winter 2027 intl. applicants."
   },
   {
     "title": "Convocation",
@@ -477,7 +479,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Transfer Credit and Prior Learning submission deadline for the Winter 2027 term."
+    "description": "Transfer credit submission deadline for Winter 2027."
   },
   {
     "title": "Withdrawal Deadline",
@@ -486,7 +488,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to withdraw from Fall 2026 courses without academic penalty."
+    "description": "Last day to withdraw from Fall 2026 without penalty."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -495,7 +497,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Final deadline to submit your Application to Graduate for the Winter 2027 convocation."
+    "description": "Final deadline to apply to graduate for Winter 2027."
   },
   {
     "title": "End of Fall Term",
@@ -510,10 +512,11 @@
     "title": "College Closed – Winter Break",
     "date": "2026-12-24",
     "end_date": "2027-01-01",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the winter holiday break. No classes or services from December 24 through January 1, 2027."
+    "description": "College closed Dec 24 – Jan 1. No classes or services."
   },
   {
     "title": "New Student Orientation",
@@ -531,7 +534,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to pay tuition and fees for the Winter 2027 term. Late payments may result in deregistration from courses."
+    "description": "Tuition and fees due for the Winter 2027 term."
   },
   {
     "title": "Start of Winter Term",
@@ -540,7 +543,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "First day of classes for the Winter 2027 term. Welcome back to campus!"
+    "description": "First day of classes for Winter 2027."
   },
   {
     "title": "Application to Graduate Opens",
@@ -549,7 +552,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "The Application to Graduate opens for eligible Winter 2027 students."
+    "description": "Application to Graduate opens for Winter 2027 students."
   },
   {
     "title": "Course Drop & Transfer Credit Deadline",
@@ -558,7 +561,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to drop courses and submit transfer credit for Winter 2027. International applications also open for Post-Secondary Programs for Winter 2028."
+    "description": "Last day to drop courses or submit transfer credit."
   },
   {
     "title": "Graduation Conferral",
@@ -576,7 +579,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for Academic Upgrading, English Language Learning, and Regional Open Studies programs for upcoming intakes."
+    "description": "Applications open for Upgrading and EAP programs."
   },
   {
     "title": "Domestic Applications Open – Winter 2028",
@@ -585,7 +588,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Applications open for domestic students applying to post-secondary programs for the Winter 2028 intake. Health & Wellness students also begin self-registration."
+    "description": "Domestic applications open for Winter 2028 intake."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -594,25 +597,26 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit your Application to Graduate for the Winter 2027 convocation."
+    "description": "Submit your Application to Graduate for Winter 2027."
   },
   {
     "title": "College Closed – Alberta Family Day",
     "date": "2027-02-15",
-    "time": "All Day",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for the Alberta Family Day statutory holiday. No classes or services."
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Reading Week",
     "date": "2027-02-16",
     "end_date": "2027-02-19",
+    "time": "",
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Reading Week for Winter 2027. Credit classes do not meet, except Practical Nurse classes. Clinical, practicum, and continuing courses proceed as usual."
+    "description": "Credit classes do not meet. Some courses continue."
   },
   {
     "title": "SABVC Health Plan Opt-Out Deadline",
@@ -621,7 +625,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to opt out of the SABVC Health and Dental plan and My Virtual Doctor (MVD) plan for Winter 2027."
+    "description": "Last day to opt out of SABVC Health & Dental plan."
   },
   {
     "title": "Open House",
@@ -639,7 +643,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Self-registration for Open Studies Spring 2027 courses opens."
+    "description": "Self-registration opens for Open Studies Spring 2027."
   },
   {
     "title": "Student Visa Deadline – Spring 2027",
@@ -648,7 +652,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Deadline to submit student visa approval or denial for Spring 2027 international applicants."
+    "description": "Visa approval/denial due for Spring 2027 intl. applicants."
   },
   {
     "title": "Graduation Conferral",
@@ -660,14 +664,22 @@
     "description": "March 2027 Graduation Conferral Date."
   },
   {
-    "title": "College Closed – Good Friday & Easter",
+    "title": "Good Friday",
     "date": "2027-03-26",
-    "end_date": "2027-03-29",
     "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
-    "description": "College closed for Good Friday and Easter Monday statutory holidays. No classes or services March 26 to 29."
+    "description": "College closed. No classes or services."
+  },
+  {
+    "title": "Easter Monday",
+    "date": "2027-03-29",
+    "time": "",
+    "location": "All Campuses",
+    "category": "holiday",
+    "featured": false,
+    "description": "College closed. No classes or services."
   },
   {
     "title": "Withdrawal Deadline",
@@ -676,7 +688,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Last day to withdraw from Winter 2027 courses without academic penalty."
+    "description": "Last day to withdraw from Winter 2027 without penalty."
   },
   {
     "title": "Application to Graduate Deadline",
@@ -685,7 +697,7 @@
     "location": "",
     "category": "academic",
     "featured": false,
-    "description": "Final deadline to submit your Application to Graduate for the Spring 2027 convocation."
+    "description": "Final deadline to apply to graduate for Spring 2027."
   },
   {
     "title": "End of Winter Term",
