@@ -77,16 +77,10 @@
         }
 
         .page-title {
-            font-size: 58px; font-weight: 800; line-height: 1;
+            font-size: 58px; font-weight: 700; line-height: 1;
             letter-spacing: -1.5px;
         }
 
-        .time-group { text-align: right; display: flex; flex-direction: column; align-items: flex-end; }
-        .clock {
-            font-size: 64px; font-weight: 700; line-height: 1;
-            font-variant-numeric: tabular-nums;
-            margin-bottom: 6px;
-        }
         .date-display { font-size: 24px; font-weight: 400; opacity: 0.85; }
 
         /* ── CONTENT AREA ── */
@@ -156,13 +150,13 @@
         .featured-date-group { text-align: right; }
 
         .featured-title {
-            font-size: 60px; font-weight: 800; line-height: 1.05;
-            letter-spacing: -1px; margin-bottom: 36px;
+            font-size: 60px; font-weight: 700; line-height: 1.05;
+            letter-spacing: -1px; margin-bottom: 24px;
         }
 
         .featured-meta {
             font-size: 18px; font-weight: 400; color: var(--text-secondary);
-            margin-bottom: 22px;
+            margin-bottom: 30px;
         }
 
         .featured-desc {
@@ -251,10 +245,6 @@
             <div class="title-group">
                 <div class="page-label">Bow Valley College</div>
                 <div class="page-title">Upcoming Events</div>
-            </div>
-            <div class="time-group">
-                <div class="clock" id="clock">--:-- --</div>
-                <div class="date-display" id="date-display">---</div>
             </div>
         </header>
 
@@ -404,21 +394,6 @@
         if (n < 0)   return "Past";
         return "In " + n + " days";
     }
-
-    // ============================================================
-    // CLOCK
-    // ============================================================
-    function updateClock() {
-        var now = new Date();
-        document.getElementById("clock").textContent = now.toLocaleTimeString("en-US", {
-            hour: "numeric", minute: "2-digit", hour12: true
-        });
-        document.getElementById("date-display").textContent = now.toLocaleDateString("en-US", {
-            weekday: "long", month: "long", day: "numeric"
-        });
-    }
-    setInterval(updateClock, 1000);
-    updateClock();
 
     // ============================================================
     // RENDER
