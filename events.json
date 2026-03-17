@@ -1,5 +1,15 @@
 [
   {
+    "title": "Open House",
+    "date": "2026-03-07",
+    "end_date": "",
+    "time": "10:00 AM – 2:00 PM",
+    "location": "Main Campus & Okotoks Campus",
+    "category": "campus",
+    "featured": true,
+    "description": "Explore everything BVC has to offer. Meet advisors, tour our facilities, and discover programs in business, health, technology, community studies, and entertainment arts."
+  },
+  {
     "title": "Transcript Submission Deadline",
     "date": "2026-03-20",
     "time": "",
@@ -27,9 +37,18 @@
     "description": "Last day to withdraw from Winter 2026 courses without academic penalty."
   },
   {
-    "title": "College Closed – Good Friday & Easter",
+    "title": "Good Friday",
     "date": "2026-04-03",
-    "time": "April 3 – 6",
+    "end_date": "2026-04-03",
+    "location": "All Campuses",
+    "category": "holiday",
+    "featured": false,
+    "description": "College closed for Good Friday and Easter Monday statutory holidays. No classes or services April 3 to 6."
+  },
+  {
+    "title": "Easter Monday",
+    "date": "2026-04-06",
+    "end_date": "2026-04-06",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
@@ -65,7 +84,8 @@
   {
     "title": "New Student Orientation",
     "date": "2026-04-30",
-    "time": "April 30, May 1 & 4",
+    "end_date": "2026-05-04",
+    "time": "",
     "location": "",
     "category": "campus",
     "featured": true,
@@ -173,7 +193,8 @@
   {
     "title": "Spring Convocation Ceremonies",
     "date": "2026-06-17",
-    "time": "June 17 & 18",
+    "end_date": "2026-06-18",
+    "time": "",
     "location": "",
     "category": "campus",
     "featured": true,
@@ -191,7 +212,7 @@
   {
     "title": "Reading Week",
     "date": "2026-06-29",
-    "time": "June 29 – July 3",
+    "end_date": "2026-07-03",
     "location": "",
     "category": "academic",
     "featured": false,
@@ -407,7 +428,7 @@
   {
     "title": "Reading Week",
     "date": "2026-11-09",
-    "time": "November 9 – 13",
+    "end_date": "2026-11-13",
     "location": "",
     "category": "academic",
     "featured": false,
@@ -488,7 +509,7 @@
   {
     "title": "College Closed – Winter Break",
     "date": "2026-12-24",
-    "time": "Dec 24 – Jan 1, 2027",
+    "end_date": "2027-01-01",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
@@ -587,7 +608,7 @@
   {
     "title": "Reading Week",
     "date": "2027-02-16",
-    "time": "February 16 – 19",
+    "end_date": "2027-02-19",
     "location": "",
     "category": "academic",
     "featured": false,
@@ -641,7 +662,8 @@
   {
     "title": "College Closed – Good Friday & Easter",
     "date": "2027-03-26",
-    "time": "March 26 – 29",
+    "end_date": "2027-03-29",
+    "time": "",
     "location": "All Campuses",
     "category": "holiday",
     "featured": false,
