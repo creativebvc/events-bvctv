@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,7 +128,12 @@
 
         /* ── LIST CARDS ── */
         /* 4 cards × 173px + 3 gaps × 18px = 692 + 54 = 746px ≈ 748px */
-        .event-list { display: flex; flex-direction: column; height: 748px; }
+        /* Event list paging fade */
+        .event-list {
+            display: flex; flex-direction: column; height: 748px;
+            transition: opacity 0.5s ease;
+        }
+        .event-list.fading { opacity: 0; }
 
         .event-card {
             background: var(--glass-bg);
@@ -230,7 +236,14 @@
         }
 
         /* Animations */
-        .fade-in { animation: fadeIn 0.5s ease-out forwards; opacity: 0; }
+        .fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+        .fade-in-1 { animation: fadeIn 0.5s ease-out 0.0s forwards; opacity: 0; }
+        .fade-in-2 { animation: fadeIn 0.5s ease-out 0.2s forwards; opacity: 0; }
+        .fade-in-3 { animation: fadeIn 0.5s ease-out 0.4s forwards; opacity: 0; }
+        .fade-in-4 { animation: fadeIn 0.5s ease-out 0.6s forwards; opacity: 0; }
         @keyframes fadeIn { to { opacity: 1; } }
     </style>
 </head>
@@ -277,9 +290,9 @@
     //   {
     //     "title": "Open House",
     //     "description": "...",
-    //     "date": "2026-03-07",         // YYYY-MM-DD
-    //     "time": "10:00 AM - 4:00 PM", // optional
-    //     "location": "South Campus",    // optional
+    //     "date": "2026-03-22",         // YYYY-MM-DD
+    //     "time": "10:00 AM - 2:00 PM", // optional
+    //     "location": "Main Campus",    // optional
     //     "category": "campus"          // campus | holiday | academic | local
     //   }
     // ]
@@ -297,9 +310,9 @@
         {
             title: "Open House",
             description: "Join us and explore everything Bow Valley College has to offer. Meet with academic advisors, tour our facilities, and discover programs in business, health, technology, community studies, and entertainment arts.",
-            date: "2026-03-07",
+            date: "2026-03-22",
             time: "10:00 AM - 2:00 PM",
-            location: "South Campus & North Campus",
+            location: "Main Campus & Okotoks Campus",
             category: "campus"
         },
         {
@@ -446,7 +459,52 @@
         }
 
         renderFeatured(featuredEvent);
-        renderList(listEvents.slice(0, 4));
+        startPaging(listEvents);
+    }
+
+    // ── PAGING STATE ──
+    var pagingInterval = null;
+    var currentPage = 0;
+    var allListEvents = [];
+
+    function startPaging(events) {
+        // Clear any existing interval from a previous data load
+        if (pagingInterval !== null) {
+            clearInterval(pagingInterval);
+            pagingInterval = null;
+        }
+
+        allListEvents = events;
+        currentPage = 0;
+
+        // Show first page immediately
+        renderList(getPage(0));
+
+        // If there's only one page, no need to cycle
+        if (allListEvents.length <= 4) { return; }
+
+        pagingInterval = setInterval(function() {
+            var totalPages = Math.ceil(allListEvents.length / 4);
+            var nextPage = (currentPage + 1) % totalPages;
+            var container = document.getElementById("event-list");
+            if (!container) { return; }
+
+            // Fade out
+            container.className = "event-list fading";
+
+            setTimeout(function() {
+                currentPage = nextPage;
+                renderList(getPage(currentPage));
+                // Fade in
+                container.className = "event-list";
+            }, 500);
+
+        }, 10000);
+    }
+
+    function getPage(pageIndex) {
+        var start = pageIndex * 4;
+        return allListEvents.slice(start, start + 4);
     }
 
     function formatDateDisplay(ev) {
@@ -511,9 +569,8 @@
             d = ev._date;
             todayClass = ev._days === 0 ? " today" : "";
             todayBadge = ev._days === 0 ? "<span class='today-badge'>Today</span>" : "";
-            delay = (i * 0.08) + "s";
 
-            html += "<div class='event-card fade-in" + todayClass + "' style='animation-delay:" + delay + ";'>";
+            html += "<div class='event-card fade-in-" + (i + 1) + todayClass + "'>";
             html +=   "<div class='event-body'>";
             html +=     "<div class='event-left'>";
             html +=       "<div class='event-tag " + meta.tagClass + "'>" + meta.label + "</div>";
