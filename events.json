@@ -360,7 +360,7 @@
     "time": "",
     "location": "Main Campus",
     "category": "campus",
-    "featured": true,
+    "featured": false,
     "description": "Explore everything BVC has to offer. Meet advisors, tour our facilities, and discover programs in business, health, technology, community studies, and entertainment arts."
   },
   {
@@ -406,7 +406,7 @@
     "location": "In-person",
     "category": "campus",
     "featured": false,
-    "description": "Why Advancing Women in Tech Needs Men in the Room, a keynote with April Hicke. Gain insights into the role of allyship in creating more inclusive workplaces and how diverse teams contribute to innovation, growth, and success."
+    "description": "Keynote with April Hicke on allyship and inclusive workplaces."
   },
   {
     "title": "BVC MentorLink Speed Networking",
@@ -415,7 +415,7 @@
     "location": "TransAlta Hall",
     "category": "campus",
     "featured": false,
-    "description": "Take the first step toward a successful mentorship match. Mentors and prospective mentees connect before matches are made to build rapport and explore shared interests."
+    "description": "Meet mentors and prospective mentees before matches are made."
   },
   {
     "title": "Reading Week",
@@ -470,7 +470,7 @@
     "location": "In-person",
     "category": "campus",
     "featured": false,
-    "description": "A Woman's Guide to Landing Your First Role. Part of the TC Energy Women in Leadership events."
+    "description": "A woman's guide to landing your first role in energy and tech."
   },
   {
     "title": "Transfer Credit Deadline – Winter 2027",
@@ -497,7 +497,7 @@
     "location": "In-person",
     "category": "campus",
     "featured": false,
-    "description": "Part of the TC Energy Women in Leadership events. Plan your next career steps and set goals to get there."
+    "description": "Plan your next career steps and set goals."
   },
   {
     "title": "Strategic Networking Series: Industry Mixer",
